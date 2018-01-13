@@ -38,12 +38,32 @@ module.exports.routes = {
   },
   // 'post /post/fetch': 'crudController.post'
 
+
+
+  'post /postSocket/fetch': {
+    controller: 'crudController',
+    action : "postSocket"
+  },
+
+  // 'post /postSocket/fetch': 'crudController.postSocket'
+
+
+
+
+
   'get /get/fetch': {
     controller: 'crudController',
     action : "get"
   },
 
   // 'get /get/fetch': 'crudController.get'
+
+  'get /getSocket/fetch': {
+    controller: 'crudController',
+    action : "getSocket"
+  },
+
+  // 'get /getSocket/fetch': 'crudController.getSocket'
 
 
 
@@ -54,12 +74,31 @@ module.exports.routes = {
 
   // 'delete /delete/fetch': 'crudController.delete'
 
+
+
+  'delete /deleteSocket/fetch': {
+    controller: 'crudController',
+    action : "deleteSocket"
+  },
+
+  // 'get /deleteSocket/fetch': 'crudController.deleteSocket'
+
+
   'put /put/fetch': {
     controller: 'crudController',
     action : "put"
-  }
+  },
 
   // 'put /put/fetch': 'crudController.put'
+
+
+
+  'put /putSocket/fetch': {
+    controller: 'crudController',
+    action : "putSocket"
+  },
+
+  // 'put /putSocket/fetch': 'crudController.putSocket'
 
 
 

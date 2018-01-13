@@ -16,6 +16,8 @@ module.exports = {
   },
 
 
+
+
   delete: function( req, res ) {
     console.log("res:::", req.query)
     res.ok(req.query)
@@ -25,6 +27,34 @@ module.exports = {
   put: function( req, res ) {
     console.log("res:::", req.query)
     res.ok(req.query)
+  },
+
+
+
+
+
+
+  postSocket: function( req, res ) {
+    console.log("res:::", req.allParams())
+    res.ok(req.allParams())
+  },
+
+
+
+  getSocket: function( req, res ) {
+    console.log("res:::", req.allParams())
+    res.ok(req.allParams())
+  },
+
+
+  putSocket: function( req, res ) {
+    console.log("res:::", req.allParams())
+    res.ok(req.allParams())
+  },
+
+  deleteSocket: function( req, res ) {
+    console.log("res:::", req.allParams())
+    res.ok(req.allParams())
   },
 
   // --------------------------------------------------------------------
