@@ -1,5 +1,8 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'npm@5.0.0' ]
 2 info using npm@3.10.8
 3 info using node@v8.9.4
 4 verbose stack Error: Cannot find module 'internal/util/types'
@@ -15,7 +18,7 @@
 4 verbose stack     at tryModuleLoad (module.js:499:12)
 5 verbose cwd /Users/martin/project/sample-sails/sails
 6 error Darwin 17.3.0
-7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "npm@5.0.0"
 8 error node v8.9.4
 9 error npm  v3.10.8
 10 error code MODULE_NOT_FOUND

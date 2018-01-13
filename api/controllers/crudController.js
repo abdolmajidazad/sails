@@ -6,7 +6,11 @@ module.exports = {
 
   post: function( req, res ) {
     console.log("res:::", req.body)
-    res.ok(req.body)
+
+    Product.create(req.body).exec((error, result)=>{
+      res.ok(result)
+    });
+
   },
 
 
